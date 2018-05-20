@@ -1,0 +1,50 @@
+.comment-input{
+    background-color : white;
+    border: 1px solid #999;
+    height : 19rem;
+    width : 90%;
+    margin : 0 auto;
+    margin-bottom : 2rem;
+
+    .comment-input-wrapper{
+        margin-top : 0.3rem;
+        margin-bottom : 1rem;
+        margin-left : 0.5rem;
+        margin-right : 0.5rem;
+        height: 80%;
+
+        .comment-input-nickname{
+            font-size: 1.2rem;
+            user-select: none;
+        }
+
+        textarea{
+            resize: none;
+            height : 70%;
+            background-color : white;
+            border: 1px solid white;
+            margin-top : 1rem;
+        }
+
+        .button-wrapper{
+            display : flex;
+            justify-content: flex-end;
+            
+            .comment-input-button{
+                border: 1px solid rgb(216, 214, 214);
+                font-size: 1.2rem;
+                margin-top : 1rem;
+                padding-top : 0.4rem;
+                padding-bottom : 0.4rem;
+                padding-left : 0.6rem;
+                padding-right : 0.6rem;
+                user-select: none;
+                cursor: pointer;
+
+                &:active{
+                    background-color : rgb(247, 238, 238);
+                }
+            }
+        }
+    }
+}

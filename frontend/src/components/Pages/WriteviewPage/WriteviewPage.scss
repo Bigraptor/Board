@@ -1,0 +1,129 @@
+.wrapper{
+    background-image : url("../../../static/images/FlowerRain.jpg");
+    background-position: center;
+    background-size: cover;
+    width : 100%;
+    height: 100%;
+
+    .view{
+        width : 1200px;
+        margin : 0 auto;
+
+        .view-article{
+            margin-top: 2rem;
+
+            .titlebox{
+                border-bottom : 1px solid #999;
+
+                .title{
+                    font-size: 3rem;
+                }
+
+                .subbox{
+                    display : flex;
+                    margin-top : 1rem;
+                    margin-bottom: 1.7rem;
+                    align-items: center;
+
+                    .writer{
+                        font-size : 1.3rem;
+                        margin-right : 0.5rem;
+                    }
+
+                    .date{
+                        color : #999;
+                        margin-left : 0.5rem;
+                    }
+
+            }
+        }
+
+            .footer{
+                border-top: 0.7px solid #999;
+                margin-top : 1.7rem;
+
+                .buttonbox{
+                    display : flex;
+                    margin-top : 1.4rem;
+                    justify-content: flex-end;
+
+                    .modify{
+                        background-color : #f8bbd0;
+                        padding-top : 0.5rem;
+                        padding-bottom: 0.5rem;
+                        padding-left: 1rem;
+                        padding-right : 1rem;
+                        cursor: pointer;
+                        user-select: none;
+                        color : black;
+                        margin-right : 0.5rem;
+                        transition : all 0.1s ease-in;
+
+                        &:hover{
+                            color : rgb(151, 172, 241);
+                        }
+                    }
+
+                    .delete{
+                        background-color : #f8bbd0;
+                        padding-top : 0.5rem;
+                        padding-bottom: 0.5rem;
+                        padding-left: 1rem;
+                        padding-right : 1rem;
+                        cursor: pointer;
+                        user-select: none;
+                        color : black;
+                        margin-left : 0.5rem;
+                        margin-right : 0.5rem;
+                        transition : all 0.1s ease-in;
+
+                        &:hover{
+                            color : rgb(151, 172, 241);
+                        }
+                    }
+
+                    .list{
+                        background-color : #f8bbd0;
+                        padding-top : 0.5rem;
+                        padding-bottom: 0.5rem;
+                        padding-left: 1rem;
+                        padding-right : 1rem;
+                        cursor: pointer;
+                        user-select: none;
+                        color : black;
+                        margin-left : 0.5rem;
+                        margin-right : 0.5rem;
+                        transition : all 0.1s ease-in;
+
+                        &:hover{
+                            color : rgb(151, 172, 241);
+                        }
+                    }
+                }
+            }
+
+            .comment{
+                margin-top : 1.5rem;
+                background-color : #EAEAEA;
+
+                .comment-title{
+                    font-size : 1.5rem;
+                    margin-bottom : 1rem;
+                    margin-left : 1rem;
+                    padding-top : 1rem;
+                }
+
+                .comment-list{
+                    margin-left : 1.5rem;
+                    margin-right : 1.5rem;
+                    margin-bottom : 2rem;
+                }
+            }
+        }
+
+        .body{
+            margin-top: 2rem;
+            font-size: 1.3rem;
+        }
+    }
+}

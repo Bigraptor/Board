@@ -1,0 +1,38 @@
+.mask{
+    background-color : rgba(252,228,236,0.4);
+    position : fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom : 0;
+    display : flex;
+    align-items: center;
+}
+
+.content-wrapper{
+    margin : 0 auto;
+    width : 500px;
+    height : 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color : #FFE8FF;
+    box-shadow: 0 2px 2px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133,0.22);
+}
+
+.cancel{
+    display : flex;
+    justify-content: flex-end;
+    margin-left : 25rem;
+    margin-bottom : 0.5rem;
+    user-select: none;
+    cursor: pointer;
+}
+
+.content-in{
+    background-color : white;
+    width : 90%;
+    height : 83%;
+    border-radius: 10%;
+}

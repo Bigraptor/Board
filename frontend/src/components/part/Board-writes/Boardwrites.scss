@@ -1,0 +1,42 @@
+.board{
+    .board-wrapper{
+        display: flex;
+        border-bottom : 1px solid rgba(248,187,208,0.4);
+        background-color : white;
+        font-size: 1.2rem;
+        text-align : center;
+        height : 3rem;
+        align-items: center;
+        
+        .board-no{
+            width : 10%;
+        }
+
+        .board-title{
+            width : 50%;
+
+            .title{
+                color : black;
+                display : inline;
+
+                &:hover {
+                    color : rgba(248,187,208,0.99);
+                }
+            }
+
+            .comments-count{
+                font-size : 0.9rem;
+                display : inline;
+                margin-left : 0.3rem;
+            }
+        }
+
+        .board-writer{
+            width : 20%;
+        }
+
+        .board-created{
+            width : 20%;
+        }
+    }
+}

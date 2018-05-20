@@ -1,0 +1,56 @@
+.login-header{
+    background-image : url("../../../static/images/sakura.jpg");
+    background-size: cover;
+    height:7rem;
+    border-radius: 30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 4rem;
+    font-weight : 900;
+    user-select: none;
+    font-family: 'Caveat', cursive;
+    color : rgb(240, 151, 219);
+}
+
+.login-input{
+    margin: 1.5rem;
+    margin-top : 2.5rem;
+    height : 80%;
+}
+
+.login-button{
+    background-color : rgb(232, 188, 238);
+    color : rgb(73, 149, 236);
+    width : 17%;
+    padding-top: 0.3rem;
+    padding-bottom : 0.3rem;
+    text-align : center;
+    margin : 0 auto;
+    margin-top : 1.5rem;
+    margin-bottom : 1.2rem;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 10%;
+    box-shadow: 0 2px 2px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133,0.22);
+
+    &:hover{
+        box-shadow: 0 5px 5px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133,0.22);
+        color : white;
+    }
+}
+
+.join-us{
+    color : #6799FF;
+    text-decoration: underline;
+    cursor : pointer;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    font-size : 1.2rem;
+}

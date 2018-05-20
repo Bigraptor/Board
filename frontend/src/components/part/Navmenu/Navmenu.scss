@@ -1,0 +1,58 @@
+.nav-wrapper{
+    display: flex;
+}
+
+.nav-intro{
+    margin-right: 3rem;
+    user-select: none;
+    transition : all 0.2s ease-in;
+    &:hover{
+        color : #80cbc4;
+        cursor: pointer;
+    }
+}
+
+.nav-login{
+    user-select: none;
+    transition : all 0.2s ease-in;
+    &:hover{
+        color : #80cbc4;
+        cursor: pointer;
+    }
+}
+
+.login-wrapper{
+    width : 250px;
+
+    .login-user{
+        text-align: center;
+    }
+
+    .login-submenu{
+        display:flex;
+        justify-content: center;
+        margin-top : 0.5rem;
+
+        .submenu-mypage{
+            margin-right : 0.7rem;
+            cursor: pointer;
+            user-select: none;
+            transition : all 0.1s ease-in;
+
+            &:hover{
+                color : rgb(151, 172, 241);
+            }
+        }
+
+        .submenu-logout{
+            margin-left : 0.7rem;
+            cursor: pointer;
+            user-select: none;
+            transition : all 0.1s ease-in;
+
+            &:hover{
+                color : rgb(151, 172, 241);
+            }
+        }
+    }
+}

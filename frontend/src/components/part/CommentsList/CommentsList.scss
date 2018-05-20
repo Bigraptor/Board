@@ -1,0 +1,39 @@
+.wrapper{
+    margin : 1rem;
+    border-bottom : 1px solid gray;
+
+    .writer{
+        font-size : 1.3rem;
+        font-weight : 550;
+        margin-bottom : 0.4rem;
+        margin-left : 0.4rem;
+    }
+
+    .contents{
+        margin-top : 0.7rem;
+        margin-left: 0.4rem;
+        font-size : 1.2rem;
+    }
+
+    .created{
+        margin-left: 0.4rem;
+        font-size : 1.1rem;
+        color : rgb(139, 138, 138);
+        margin-bottom:0.7rem;
+    }
+
+    .button-wrapper{
+        display : flex;
+
+        .button{
+            margin-left: 0.4rem;
+            margin-bottom : 1rem;
+            border : 1px solid gray;
+            padding-left: 0.7rem;
+            padding-right : 0.7rem;
+            padding-top : 0.4rem;
+            padding-bottom : 0.4rem;
+            cursor: pointer;
+        }
+    }
+}

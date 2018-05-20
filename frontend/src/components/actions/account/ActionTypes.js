@@ -1,0 +1,10 @@
+export const JOIN = "JOIN";
+export const JOIN_SUCCESS = "JOIN_SUCCESS";
+export const JOIN_FAILED = "JOIN_FAILED";
+export const LOGIN = "LOGIN";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAILED = "LOGIN_FAILED";
+export const CHECK_SESSION = "CHECK_SESSION";
+export const CHECK_SESSION_SUCCESS = "CHECK_SESSION_SUCCESS";
+export const CHECK_SESSION_FAILED = "CHECK_SESSION_FAILED";
+export const LOGOUT = "LOGOUT";
